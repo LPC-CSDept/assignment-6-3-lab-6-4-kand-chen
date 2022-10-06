@@ -5,7 +5,7 @@
       "setup": "",
       "run": "g++ -std=c++11 A63.cpp && ./a.out",
       "input": "5\r\n1\r\n2\r\n3\r\n4\r\n5",
-      "output": "[9]",
+      "output": "[\\w,\\W]*9[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "g++ -std=c++11 A63.cpp && ./a.out",
       "input": "3\r\n1\r\n10\r\n100",
-      "output": "[10]",
+      "output": "[\\w,\\W]*10[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "g++ -std=c++11 A63.cpp && ./a.out",
       "input": "2\r\n10\r\n100",
-      "output": "[0]",
+      "output": "[\\w,\\W]*0[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "g++ -std=c++11 A63.cpp && ./a.out",
       "input": "3\r\n-50\r\n10\r\n100",
-      "output": "[10]",
+      "output": "[\\w,\\W]*10[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
