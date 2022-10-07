@@ -3,6 +3,7 @@ using namespace std;
 
 int getSum(int n);
 
+
 int main(){
     int N, A;
     int sum;
